@@ -5,15 +5,15 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.ackermansoftware.interviewquestions.animal.Dog;
+import com.ackermansoftware.interviewquestions.AnimalDog;
 
 
 public class AnimalDogTests {
-	private Dog d;
+	private AnimalDog d;
 
 	@Before
 	public void init() {
-		d = new Dog();
+		d = new AnimalDog();
 	}
 
 	@Test
