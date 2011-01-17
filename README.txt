@@ -9,7 +9,11 @@ interface AnimalBehavior
 	public String poop();
 
 interface DogBehavior
-	/* By default, bark() will output “woof!”.  However, if muffle() is called, bark() will then output "**mmmmmf**" indicating that the dog cannot bark while muffled. */
+	/* 
+		By default, bark() will output "woof!".  However, if muffle() is called,
+		bark() will then output "**mmmmmf**" indicating that the dog cannot
+		bark while muffled.
+	*/
 	public String bark();
 	public void muffle();
 
